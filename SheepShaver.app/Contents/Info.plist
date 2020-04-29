@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>$(MAC_OS_X_PRODUCT_BUILD_VERSION)</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>sheepvm</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>SheepVM.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>SheepShaver VM</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSTypeIsPackage</key>
+			<true/>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>SheepShaver</string>
+	<key>CFBundleIconFile</key>
+	<string>SheepShaver.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.emaculation.sheepshaver</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.5</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>2.5</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+	<key>DTCompiler</key>
+	<string>$(GCC_VERSION)</string>
+	<key>DTPlatformBuild</key>
+	<string>$(PLATFORM_PRODUCT_BUILD_VERSION)</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>$(SDK_PRODUCT_BUILD_VERSION)</string>
+	<key>DTSDKName</key>
+	<string>$(SDK_NAME)</string>
+	<key>DTXcode</key>
+	<string>$(XCODE_VERSION_ACTUAL)</string>
+	<key>DTXcodeBuild</key>
+	<string>$(XCODE_PRODUCT_BUILD_VERSION)</string>
+	<key>LSArchitecturePriority</key>
+	<array>
+		<string>x86_64</string>
+	</array>
+	<key>LSMinimumSystemVersion</key>
+	<string>$($(DEPLOYMENT_TARGET_SETTING_NAME))</string>
+	<key>LSMinimumSystemVersionByArchitecture</key>
+	<dict>
+		<key>x86_64</key>
+		<string>10.7.0</string>
+	</dict>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>
